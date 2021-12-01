@@ -1,5 +1,6 @@
 ---
-title: <div itemscope itemtype="https://schema.org/Person">Ken Sakayori (酒寄　健) <a itemprop="sameAs" content="https://orcid.org/0000-0003-3238-9279" href="https://orcid.org/0000-0003-3238-9279" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:bottom;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a></div>
+title: Ken Sakayori
+h1: <div itemscope itemtype="https://schema.org/Person">Ken Sakayori (酒寄　健) <a itemprop="sameAs" content="https://orcid.org/0000-0003-3238-9279" href="https://orcid.org/0000-0003-3238-9279" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:bottom;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a></div>
 ---
 I'm a postdoctoral researcher at the [Department of Computer Science and Engineering](https://disi.unibo.it/it), University of Bologna,  
 and also a member of the [INRIA FoCUS](https://team.inria.fr/focus/) Research Team.
