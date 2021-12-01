@@ -1,0 +1,88 @@
+body {
+    color: #333; /* dark gray */
+    font-size: 16px;
+    font-family: arial;
+    padding: 0;
+    margin: 0px 0.5em 0px 0.5em;
+    width: auto;
+}
+a {
+    color: #782725;
+}
+a:hover {
+    color: #555555;
+    text-decoration: none;
+}
+
+
+
+div#header {
+    border-bottom: 2px solid gray;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+div#logo a {
+    color: black;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#header #logo a:hover{
+    color: #555555;
+}
+
+div#header #navigation {
+    text-align: right;
+}
+
+div#header #navigation a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div#header #navigation a:hover{
+    color: #555555;
+}
+
+div#footer {
+    border-top: solid 2px black;
+    color: #555;
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 0;
+    text-align: right;
+}
+
+div#footer #contact {
+    float: left;
+}
+
+div#footer #last-updated {
+    float:left;
+    margin: auto 10px;
+}
+
+div#footer #hakyll {
+    text-align: right;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+div.info {
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+}
