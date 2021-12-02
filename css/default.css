@@ -82,6 +82,14 @@ h1 {
 
 h2 {
     font-size: 20px;
+    border-color: #5F9EA0;
+    border-width: 0pt 0pt 0pt 5pt;
+    border-style: solid;
+    padding-left: 0.5em;
+}
+
+li {
+    margin-bottom: 5px;
 }
 
 div.info {
