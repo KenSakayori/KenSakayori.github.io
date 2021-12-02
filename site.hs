@@ -1,6 +1,7 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
+import           Text.Pandoc.Options (writerHTMLMathMethod, HTMLMathMethod(MathML))
 import           Hakyll
 
 
@@ -27,6 +28,14 @@ config :: Configuration
 config = defaultConfiguration
   { destinationDirectory = "docs"
   }
+
+-- Use this if I want to use deferent rendering method for math
+-- myPandocCompiler :: Compiler (Item String)
+-- myPandocCompiler = pandocCompilerWith reader writer
+--    where
+--        reader = defaultHakyllReaderOptions
+--        writer = defaultHakyllWriterOptions { writerHTMLMathMethod = MathML Nothing }
+
 
 --------------------------------------------------------------------------------
 defaultContext' :: Context String
