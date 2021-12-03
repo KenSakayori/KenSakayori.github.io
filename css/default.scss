@@ -1,0 +1,100 @@
+// Colors
+$gray: #333;
+$davys_gray:#555555;
+$liver: #782725;
+$cadet_blue: #5F9EA0;
+
+// Fonts
+$basic_fonts: "Helvetica", "Arial",sans-serif;
+$math_fonts: "Latin Modern", "Latin Modern Math";
+
+body {
+	color: $gray;
+	font-size: 16px;
+	font-family: $basic_fonts;
+	padding: 0;
+	margin: 0px 0.5em 0px 0.5em;
+	width: auto;
+    h1 {
+	font-size: 24px;
+    }
+    h2 {
+    	font-size: 20px;
+    	border-color: $cadet_blue;
+    	border-width: 0pt 0pt 0pt 5pt;
+    	border-style: solid;
+    	padding-left: 0.5em;
+    }
+    li {
+    	margin-bottom: 5px;
+    }
+}
+.math {
+	font-family: $math_fonts;
+}
+a {
+	color: $liver;
+	&:hover {
+		color: $davys_gray;
+		text-decoration: none;
+	}
+}
+div#header {
+	border-bottom: 2px solid gray;
+	margin-bottom: 30px;
+	padding: 0;
+	#logo {
+		a {
+			&:hover {
+				color: $davys_gray;
+			}
+		}
+	}
+	#navigation {
+		text-align: right;
+		a {
+			color: black;
+			font-size: 18px;
+			font-weight: bold;
+			margin-left: 12px;
+			text-decoration: none;
+			text-transform: uppercase;
+			&:hover {
+				color: $davys_gray;
+			}
+		}
+	}
+}
+div#logo {
+	a {
+		color: black;
+		float: left;
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+div#footer {
+	border-top: solid 2px black;
+	color:$davys_gray;
+	font-size: 12px;
+	margin-top: 30px;
+	padding: 0;
+	text-align: right;
+	#contact {
+		float: left;
+	}
+	#last-updated {
+		float: left;
+		margin: auto 10px;
+	}
+	#hakyll {
+		text-align: right;
+	}
+}
+
+div.info {
+	color: $davys_gray;
+	font-size: 14px;
+	font-style: italic;
+}
