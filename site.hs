@@ -19,10 +19,21 @@ main = hakyllWith config $ do
     match "index.md" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext'
+            >>= loadAndApplyTemplate "templates/default.html" myContext
             >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
+
+--------------------------------------------------------------------------------
+myContext :: Context String
+myContext =
+    modificationTimeField "updated" "%B %e, %Y" `mappend`
+    defaultContext
+
+postCtx :: Context String
+postCtx =
+    dateField "date" "%B %e, %Y" `mappend`
+    myContext
 
 config :: Configuration
 config = defaultConfiguration
@@ -35,15 +46,3 @@ config = defaultConfiguration
 --    where
 --        reader = defaultHakyllReaderOptions
 --        writer = defaultHakyllWriterOptions { writerHTMLMathMethod = MathML Nothing }
-
-
---------------------------------------------------------------------------------
-defaultContext' :: Context String
-defaultContext' =
-    modificationTimeField "updated" "%B %e, %Y" `mappend`
-    defaultContext
-
-postCtx :: Context String
-postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
-    defaultContext'
