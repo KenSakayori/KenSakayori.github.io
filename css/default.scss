@@ -1,8 +1,12 @@
 // Colors
+///Font colors
 $gray: #333;
 $davys_gray:#555555;
-$liver: #782725;
+/// Subcolors
 $cadet_blue: #5F9EA0;
+$viridian: #40826d;
+/// accent color
+$liver: #782725;
 
 // Fonts
 $basic_fonts: "Helvetica", "Arial",sans-serif;
@@ -33,9 +37,9 @@ body {
 	font-family: $math_fonts;
 }
 a {
-	color: $liver;
+	color: #40826d;
 	&:hover {
-		color: $davys_gray;
+		color: $liver;
 		text-decoration: none;
 	}
 }
@@ -75,7 +79,7 @@ div#logo {
 	}
 }
 div#footer {
-	border-top: solid 2px black;
+	border-top: solid 2px $cadet_blue;
 	color:$davys_gray;
 	font-size: 12px;
 	margin-top: 30px;
