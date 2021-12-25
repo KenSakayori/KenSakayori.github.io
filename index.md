@@ -61,4 +61,8 @@ Grants
 Contact
 ---
 * Email: ken.sakayori [at] unibo.it
+
+Blog
+---
+[Blog](blog.html) (currently) written only in Japanese.
  
