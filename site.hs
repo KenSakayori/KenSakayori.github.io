@@ -35,6 +35,19 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/posts.html" (postContext tags)
             >>= relativizeUrls
 
+    create ["blog.html"] $ do
+        route idRoute
+        compile $ do
+            posts <- loadAll "blog/posts/*"
+            sorted <- recentFirst posts
+            itemTpl <- loadBody "templates/post-item.html"
+            list <- applyTemplateList itemTpl (postContext tags) sorted
+            makeItem list
+                >>= loadAndApplyTemplate "templates/post-list.html" defaultContext
+                >>= loadAndApplyTemplate "templates/default.html" blogContext
+                >>= relativizeUrls
+
+
     match "templates/*" $ compile templateBodyCompiler
 
 --------------------------------------------------------------------------------
@@ -50,6 +63,14 @@ postContext tags  =
     -- tagsField "tags" tags `mappend`
     dateField "date" "%B %e, %Y" `mappend`
     myContext
+
+
+blogContext :: Context String
+blogContext =
+  constField "title" "Blog" `mappend`
+  constField "h1" "Blog Posts" `mappend`
+  boolField "isindex" (\i -> (toFilePath $ itemIdentifier i) == "index.md") `mappend`
+  defaultContext
 
 
 -- | Create the `tags` field
