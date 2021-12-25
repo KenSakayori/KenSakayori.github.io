@@ -25,6 +25,12 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/default.html" myContext
             >>= relativizeUrls
 
+    match "blog/posts/*" $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/posts.html" postContext
+            >>= relativizeUrls
+
     match "templates/*" $ compile templateBodyCompiler
 
 --------------------------------------------------------------------------------
@@ -34,8 +40,8 @@ myContext =
     modificationTimeField "updated" "%B %e, %Y" `mappend`
     defaultContext
 
-postCtx :: Context String
-postCtx =
+postContext :: Context String
+postContext =
     dateField "date" "%B %e, %Y" `mappend`
     myContext
 
