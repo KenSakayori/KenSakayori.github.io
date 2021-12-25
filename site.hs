@@ -8,7 +8,6 @@ import           Text.Pandoc.Options (writerHTMLMathMethod, HTMLMathMethod(MathM
 import           Hakyll
 import Text.Sass as Sass
 
-
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith config $ do
@@ -31,6 +30,7 @@ main = hakyllWith config $ do
 --------------------------------------------------------------------------------
 myContext :: Context String
 myContext =
+    boolField "isindex" (\i -> (toFilePath $ itemIdentifier i) == "index.md") `mappend`
     modificationTimeField "updated" "%B %e, %Y" `mappend`
     defaultContext
 
