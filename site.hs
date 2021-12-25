@@ -1,16 +1,20 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import Data.Monoid (mappend)
-import Control.Monad (join)
 import Control.Monad.Except (throwError)
 
-import           Text.Pandoc.Options (writerHTMLMathMethod, HTMLMathMethod(MathML))
-import           Hakyll
+
+import Text.Blaze.Html5 ((!))
+import qualified Text.Blaze.Html5 as H
+import qualified Text.Blaze.Html5.Attributes as A
+import Text.Pandoc.Options (writerHTMLMathMethod, HTMLMathMethod(MathML))
+import Hakyll
 import Text.Sass as Sass
 
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith config $ do
+    tags <- buildTags "blog/posts/*" (fromCapture "tags/*.html")
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -28,7 +32,7 @@ main = hakyllWith config $ do
     match "blog/posts/*" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/posts.html" postContext
+            >>= loadAndApplyTemplate "templates/posts.html" (postContext tags)
             >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
@@ -40,10 +44,22 @@ myContext =
     modificationTimeField "updated" "%B %e, %Y" `mappend`
     defaultContext
 
-postContext :: Context String
-postContext =
+postContext :: Tags -> Context String
+postContext tags  =
+    mkTagsField tags `mappend`
+    -- tagsField "tags" tags `mappend`
     dateField "date" "%B %e, %Y" `mappend`
     myContext
+
+
+-- | Create the `tags` field
+mkTagsField :: Tags -> Context a
+mkTagsField tags = tagsFieldWith getTags noLink mconcat destField tags
+  where
+    -- renders without adding a hyperlink
+    destField = "tags"
+    noLink :: String -> (Maybe FilePath) -> Maybe H.Html
+    noLink tag _ = Just $ H.span ! A.class_ "tag" $ H.toHtml tag
 
 config :: Configuration
 config = defaultConfiguration
