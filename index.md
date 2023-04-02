@@ -2,14 +2,15 @@
 title: Ken Sakayori
 h1: <div itemscope itemtype="https://schema.org/Person">Ken Sakayori (酒寄　健) <a itemprop="sameAs" content="https://orcid.org/0000-0003-3238-9279" href="https://orcid.org/0000-0003-3238-9279" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:bottom;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a></div>
 ---
-I'm a postdoctoral researcher at the [Department of Computer Science and Engineering](https://disi.unibo.it/it), University of Bologna,  
-and also a member of the [INRIA FoCUS](https://team.inria.fr/focus/) Research Team.
-
-Before that I was a postdoc (and a PhD student) at  
-[Kobayashi Lab](http://www-kb.is.s.u-tokyo.ac.jp/index.html.en), [Department of Computer Science](http://www.is.s.u-tokyo.ac.jp/english/),  
+I'm a 助教 (*jokyo*, assistant professor) of the [Department of Computer Science](http://www.is.s.u-tokyo.ac.jp/english/),  
 [Graduate School of Information Science and Technology](http://www.i.u-tokyo.ac.jp/index_e.shtml),  
-[The University of Tokyo](http://www.u-tokyo.ac.jp/en/index.html),   
-under the supervision of [Naoki Kobayashi](http://www-kb.is.s.u-tokyo.ac.jp/~koba/).
+[The University of Tokyo](http://www.u-tokyo.ac.jp/en/index.html).
+I'm a member of the [Kobayashi Lab](http://www-kb.is.s.u-tokyo.ac.jp/index.html.en).
+
+Before that I was
+
+* a happy postdoc at the [Department of Computer Science and Engineering](https://disi.unibo.it/it), University of Bologna, and also a member of the [INRIA FoCUS](https://team.inria.fr/focus/) Research Team
+* a fresh postdoc and a PhD student at the [Kobayashi Lab](http://www-kb.is.s.u-tokyo.ac.jp/index.html.en) under the supervision of [Naoki Kobayashi](http://www-kb.is.s.u-tokyo.ac.jp/~koba/).
 
 Disclaimer
 ---
@@ -18,8 +19,8 @@ For now, some of the links or functionality of this website may not work as expe
 
 Research Interests
 ---
-I study semantics of concurrent programs.
-More specifically, I'm interested in investigating $\pi$-calculus through the lens of (denotational) semantics.
+I study semantics of (concurrent) programs.
+More specifically, I like to investigate programs at the granuality in which both operational (e.g. LTS) and  denotational (e.g. categorical) semantic insights can be used.
 Broadly speaking, my interest lies in the field of programming language semantics, logics (in computer science) and programming verification.
 
 Publications
@@ -58,9 +59,16 @@ Grants
 ---
 * Grant-in-Aid for JSPS Fellows (DC2), Grant Number: 20J13473, Japan Society for the Promotion of Science, April 2020 - March 2021.
 
-Contact
+How to reach me
 ---
-* Email: ken.sakayori [at] unibo.it
+* Email: sakayori [at] kb.is.s.u-tokyo.ac.jp
+* Address:  
+  Room 503, Rigakubu 7-gokan,  
+  7-3-1 Hongo, Bunkyo-ku,  
+  Tokyo 113-0033,  
+  Japan  
+    - [Google Maps](https://goo.gl/maps/5hkndEqJ1KJnUT9U8)
+    - This [site](https://www-hep.phys.s.u-tokyo.ac.jp/maps/guide.html) explains how to reach the campus from stations and airports.
 
 Blog
 ---
