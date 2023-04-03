@@ -72,5 +72,5 @@ How to reach me
 
 Blog
 ---
-[Blog](blog.html) (currently) written only in Japanese.
+[Blog](blog.html) some in English and the others in Japanese.
  
