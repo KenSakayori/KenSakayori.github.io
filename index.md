@@ -2,7 +2,7 @@
 title: Ken Sakayori
 h1: <div itemscope itemtype="https://schema.org/Person">Ken Sakayori (酒寄　健) <a itemprop="sameAs" content="https://orcid.org/0000-0003-3238-9279" href="https://orcid.org/0000-0003-3238-9279" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:bottom;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a></div>
 ---
-I'm a 助教 (*jokyo*, assistant professor) of the [Department of Computer Science](http://www.is.s.u-tokyo.ac.jp/english/),  
+I'm a [助教](blog/posts/2023-04-03.html) (*jokyo*, assistant professor) of the [Department of Computer Science](http://www.is.s.u-tokyo.ac.jp/english/),  
 [Graduate School of Information Science and Technology](http://www.i.u-tokyo.ac.jp/index_e.shtml),  
 [The University of Tokyo](http://www.u-tokyo.ac.jp/en/index.html).
 I'm a member of the [Kobayashi Lab](http://www-kb.is.s.u-tokyo.ac.jp/index.html.en).
