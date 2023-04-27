@@ -28,6 +28,7 @@ Publications
 * **Ken Sakayori** and [Davide Sangiorgi](https://www.cs.unibo.it/~sangio/)  
 Extensional and Non-extensional Functions as Processes  
 To appear in Proc. LICS 2023  
+\[Preprint at [HAL](https://hal.science/hal-04081885)\]
 * Tsubasa Shoshi, Takuma Ishikawa, [Naoki Kobayashi](http://www-kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, [Ryosuke Sato](https://www-kb.is.s.u-tokyo.ac.jp/~ryosuke/), [Takeshi Tsukada](http://www.kb.is.s.u-tokyo.ac.jp/~tsukada)  
 Termination Analysis for the $\pi$-Calculus by Reduction to Sequential Program Termination  
 Proc. APLAS 2021  
