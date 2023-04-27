@@ -68,7 +68,7 @@ postContext tags  =
 -- TODO Remove the overlap with myContext
 blogContext :: Context String
 blogContext =
-  constField "title" "Ken Sakayori's Blog" `mappend`
+  constField "title" "Blog" `mappend`
   constField "h1" "Blog Posts" `mappend`
   boolField "isindex" (\i -> (toFilePath $ itemIdentifier i) == "index.md") `mappend`
   defaultContext
