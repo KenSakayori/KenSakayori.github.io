@@ -32,6 +32,10 @@ body {
     li {
     	margin-bottom: 5px;
     }
+	.highlighted-text {
+		color: $viridian;
+		font-weight: bold;
+	}
 }
 .math {
 	font-family: $math_fonts;
