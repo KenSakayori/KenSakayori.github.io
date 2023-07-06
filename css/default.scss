@@ -47,6 +47,10 @@ a {
 		text-decoration: none;
 	}
 }
+div#content{
+	max-width: 1280px;
+	margin: 0 auto;
+}
 div#header {
 	border-bottom: 2px solid gray;
 	margin-bottom: 30px;
