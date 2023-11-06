@@ -12,11 +12,6 @@ Before that I was
 * a happy postdoc at the [Department of Computer Science and Engineering](https://disi.unibo.it/it), University of Bologna, and also a member of the [INRIA FoCUS](https://team.inria.fr/focus/) Research Team
 * a fresh postdoc and a PhD student at the [Kobayashi Lab](http://www-kb.is.s.u-tokyo.ac.jp/index.html.en) under the supervision of [Naoki Kobayashi](http://www-kb.is.s.u-tokyo.ac.jp/~koba/).
 
-Disclaimer
----
-I'm in the process of porting my website to Github pages.
-For now, some of the links or functionality of this website may not work as expected.
-
 Research Interests
 ---
 I study semantics of (concurrent) programs.
