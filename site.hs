@@ -19,6 +19,10 @@ main = hakyllWith config $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "txt/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/*" $ do
         route $ setExtension "css"
         compile (fmap compressCss <$> scssCompiler)

@@ -24,7 +24,8 @@ Publications
 Ownership Types for Verification of Programs with Pointer Arithmetic  
 Proc. PEPM 2024  
 \[Publisher version: [© ACM](https://doi.org/10.1145/3635800.3636965),
-Preprint at [arXiv](https://doi.org/10.48550/arXiv.2312.06455)\]
+Preprint at [arXiv](https://doi.org/10.48550/arXiv.2312.06455),
+[Errata](txt/pepm-2024-errata.txt)\]
 * Takashi Nakayama, [Yusuke Matsushita](https://www-kb.is.s.u-tokyo.ac.jp/~yskm24t/), **Ken Sakayori**, [Ryosuke Sato](https://www-kb.is.s.u-tokyo.ac.jp/~ryosuke/) and [Naoki Kobayashi](http://www-kb.is.s.u-tokyo.ac.jp/~koba/)  
 Borrowable Fractional Ownership Types for Verification  
 Proc. VMCAI 2024  

@@ -1,0 +1,5 @@
+* p. 2 (i.e. p. 95): The line numbers in the paragraph starting from "In Figure 4." should be corrected as follows
+  - On the fourth line -> On the second line
+  - On the fifth line -> On the third line
+  - On the seventh line -> On the fifth
+  - On the eighth line -> On the sixth line
