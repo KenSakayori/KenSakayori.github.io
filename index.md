@@ -20,11 +20,14 @@ Broadly speaking, my interest lies in the field of programming language semantic
 
 Publications
 ---
+* Izumi Tanaka, **Ken Sakayori**, and [Naoki Kobayashi](http://www-kb.is.s.u-tokyo.ac.jp/~koba/)  
+Ownership Types for Verification of Programs with Pointer Arithmetic
+To appear in Proc. PEPM 2024  
+\[Preprint at [arXiv](https://doi.org/10.48550/arXiv.2312.06455)\]  
 * Takashi Nakayama, [Yusuke Matsushita](https://www-kb.is.s.u-tokyo.ac.jp/~yskm24t/), **Ken Sakayori**, [Ryosuke Sato](https://www-kb.is.s.u-tokyo.ac.jp/~ryosuke/) and [Naoki Kobayashi](http://www-kb.is.s.u-tokyo.ac.jp/~koba/)  
 Borrowable Fractional Ownership Types for Verification  
 To appear in Proc. VMCAI 2024  
-\[Preprint at [arXiv](
-https://doi.org/10.48550/arXiv.2310.20430)\]  
+\[Preprint at [arXiv](https://doi.org/10.48550/arXiv.2310.20430)\]  
 * **Ken Sakayori** and [Davide Sangiorgi](https://www.cs.unibo.it/~sangio/)  
 Extensional and Non-extensional Functions as Processes  
 Proc. LICS 2023  
