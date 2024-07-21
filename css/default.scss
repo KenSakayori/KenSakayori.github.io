@@ -1,56 +1,64 @@
-// Colors
-///Font colors
-$gray: #333;
-$davys_gray:#555555;
-/// Subcolors
-$cadet_blue: #5F9EA0;
-$viridian: #40826d;
-/// accent color
-$liver: #782725;
+@import "css/theme";
 
 // Fonts
 $basic_fonts: "Helvetica", "Noto Sans JP", "Arial",sans-serif;
 $math_fonts: "Latin Modern", "Latin Modern Math";
 
 body {
-	color: $gray;
 	font-size: 16px;
 	font-family: $basic_fonts;
 	padding: 0;
 	margin: 0px 0.5em 0px 0.5em;
 	width: auto;
-    h1 {
-	font-size: 24px;
-    }
-    h2 {
+}
+
+@include theme() {
+	color: theme-get(text-color);
+	background: theme-get(bg-color);
+
+
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
     	font-size: 20px;
-    	border-color: $cadet_blue;
+    	border-color: theme-get(accent-color);
     	border-width: 0pt 0pt 0pt 5pt;
     	border-style: solid;
     	padding-left: 0.5em;
-    }
-    li {
+	}
+	li {
     	margin-bottom: 5px;
-    }
+	}
 	.highlighted-text {
-		color: $viridian;
+		color: theme-get(accent-color);
 		font-weight: bold;
 	}
+	a {
+		color: theme-get(link-color);
+		&:hover {
+			color: theme-get(hover-color);
+			text-decoration: none;
+		}
+	}
+	footer {
+		border-top: solid 2px theme-get(accent-color);
+		color: theme-get(text-secondary-color);
+	}
+	div.info{
+		color: theme-get(text-secondary-color);
+	}
 }
+
 .math {
 	font-family: $math_fonts;
 }
-a {
-	color: #40826d;
-	&:hover {
-		color: $liver;
-		text-decoration: none;
-	}
-}
+
 div#content{
 	max-width: 1280px;
 	margin: 0 auto;
 }
+// TODO use theme for header
 div#header {
 	border-bottom: 2px solid gray;
 	margin-bottom: 30px;
@@ -77,6 +85,7 @@ div#header {
 		}
 	}
 }
+// TODO use theme for logo
 div#logo {
 	a {
 		color: black;
@@ -87,26 +96,23 @@ div#logo {
 	}
 }
 footer {
-	border-top: solid 2px $cadet_blue;
-	color:$davys_gray;
-	font-size: 12px;
-	margin-top: 30px;
-	padding: 0;
-	text-align: right;
-	#contact {
-		float: left;
-	}
-	#last-updated {
-		float: left;
-		margin: auto 10px;
-	}
-	#hakyll {
+		font-size: 12px;
+		margin-top: 30px;
+		padding: 0;
 		text-align: right;
-	}
+		#contact {
+			float: left;
+		}
+		#last-updated {
+			float: left;
+			margin: auto 10px;
+		}
+		#hakyll {
+			text-align: right;
+		}
 }
 
 div.info {
-	color: $davys_gray;
 	font-size: 14px;
 	font-style: italic;
 }
