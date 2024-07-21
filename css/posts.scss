@@ -1,36 +1,55 @@
-// Colors
-///Font colors
-$gray: #333;
-$davys_gray:#555555;
-/// Subcolors
-$cadet_blue: #5F9EA0;
-$viridian: #40826d;
-/// accent color
-$liver: #782725;
+@import "css/theme";
+
 
 // Fonts
 $basic_fonts: "Noto Serif JP",serif;
 $math_fonts: "Latin Modern", "Latin Modern Math";
 
+@include theme(){
+	color: theme-get(text-color);
+	background: theme-get(bg-color);
+
+	a {
+		color: theme-get(link-color);
+		&:hover {
+			color: theme-get(hover-color);
+			text-decoration: none;
+		}
+	}
+	h2 {
+    	border-color: theme-get(accent-color);
+	}
+
+	footer {
+		border-top: solid 2px theme-get(accent-color);
+		color: theme-get(text-secondary-color);
+	}
+	div.info{
+		color: theme-get(text-secondary-color);
+	}
+
+}
+
 body {
-	color: $gray;
 	font-size: 16px;
 	font-family: $basic_fonts;
 	padding: 0;
 	margin: 0px 0.5em 0px 0.5em;
 	width: auto;
-    h1 {
-	font-size: 28px;
+
+	h1 {
+		font-size: 28px;
     }
-    h2 {
+
+	h2 {
     	font-size: 20px;
-    	border-color: $cadet_blue;
     	border-width: 0pt 0pt 0pt 5pt;
     	border-style: solid;
     	padding-left: 0.5em;
 		margin: 1em 0 1em;
     }
-	ul,ol {
+
+    ul,ol {
 		padding-left: 20px;
 	}
     li {
@@ -64,13 +83,7 @@ div#content {
 .math {
 	font-family: $math_fonts;
 }
-a {
-	color: #40826d;
-	&:hover {
-		color: $liver;
-		text-decoration: none;
-	}
-}
+
 div#header {
 	border-bottom: 2px solid gray;
 	margin-bottom: 30px;
@@ -107,8 +120,6 @@ div#logo {
 	}
 }
 footer {
-	border-top: solid 2px $cadet_blue;
-	color:$davys_gray;
 	font-size: 12px;
 	margin-top: 30px;
 	padding: 0;
@@ -126,7 +137,6 @@ footer {
 }
 
 div.info {
-	color: $davys_gray;
 	font-size: 14px;
 	font-style: italic;
 }
