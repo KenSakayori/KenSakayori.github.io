@@ -11,6 +11,7 @@ import Text.Pandoc.Options (writerHTMLMathMethod, HTMLMathMethod(MathML))
 import Hakyll
 import Text.Sass as Sass
 
+
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith config $ do
@@ -26,6 +27,11 @@ main = hakyllWith config $ do
     match "css/*" $ do
         route $ setExtension "css"
         compile (fmap compressCss <$> scssCompiler)
+
+    match "scripts/*" $ do
+        route $ setExtension "js"
+        -- TODO minimize js
+        compile copyFileCompiler
 
     match "index.md" $ do
         route   $ setExtension "html"
