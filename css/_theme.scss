@@ -1,0 +1,50 @@
+// Colors
+///Font colors
+$light_black: #1d1f21;
+$gray: #333;
+$davys_gray:#555555;
+/// Subcolors
+$cadet_blue: #5F9EA0;
+$viridian: #40826d;
+$verdigris: #40B5AD;
+$liver: #782725;
+
+
+// Themes
+$themes: (
+        light: (
+                bg-color: white,
+                text-color: $gray,
+				        text-secondary-color: $davys_gray,
+				        accent-color: $cadet_blue,
+                link-color: $viridian,
+                hover-color: $liver,
+        ),
+        dark: (
+				        bg-color: $light_black,
+                text-color: white,
+				        text-secondary-color: $davys_gray,
+				        accent-color: $cadet_blue,
+                link-color: $verdigris,
+                hover-color: $liver,
+        ),
+);
+
+@mixin theme() {
+  @each $theme, $map in $themes {
+     .#{$theme}-theme {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge($theme-map, ($key: $value)) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+// getter for the colors of the themes
+@function theme-get($key) {
+  @return map-get($theme-map, $key);
+}
