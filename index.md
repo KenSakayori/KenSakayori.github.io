@@ -20,6 +20,10 @@ Broadly speaking, my interest lies in the field of programming language semantic
 
 Publications
 ---
+* [Hiroyuki Katsura](https://hkatsura.net/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, and [Ryosuke Sato](https://www.kb.is.s.u-tokyo.ac.jp/~ryosuke/)  
+Mode-based Reduction from Validity Checking of Fixpoint Logic Formulas to Test-Friendly Reachability Problem  
+Proc. APLAS 2024  
+\[Publisher version: [© Springer](https://doi.org/10.1007/978-981-97-8943-6_16)\]
 * Izumi Tanaka, **Ken Sakayori**, and [Naoki Kobayashi](http://www-kb.is.s.u-tokyo.ac.jp/~koba/)  
 Ownership Types for Verification of Programs with Pointer Arithmetic  
 Proc. PEPM 2024  
