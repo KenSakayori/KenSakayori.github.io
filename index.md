@@ -7,6 +7,8 @@ I'm a [助教](blog/posts/2023-04-03.html) (*jokyo*, assistant professor) of the
 [The University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html).
 I'm a member of the [Kobayashi Lab](https://www.kb.is.s.u-tokyo.ac.jp/index.html.en).
 
+(I also work as a part-time lecturer at Waseda University.)
+
 Before that I was
 
 * a happy postdoc at the [Department of Computer Science and Engineering](https://disi.unibo.it/it), University of Bologna, and also a member of the [INRIA FoCUS](https://team.inria.fr/focus/) Research Team
