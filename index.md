@@ -84,7 +84,7 @@ How to reach me
   Tokyo 113-0033,  
   Japan  
     - [Google Maps](https://goo.gl/maps/5hkndEqJ1KJnUT9U8)
-    - This [site](https://www-hep.phys.s.u-tokyo.ac.jp/maps/guide.html) explains how to reach the campus from stations and airports.
+    - This [page](https://www.t.u-tokyo.ac.jp/en/foe/access) explains how to reach the campus from stations (but it may not be that informative).
 
 Blog
 ---
