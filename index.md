@@ -41,7 +41,7 @@ Proc. LICS 2023
 <span class="highlighted-text">Distinguished Paper Award</span>  
 \[Publisher version: [© IEEE](https://doi.org/10.1109/LICS56636.2023.10175686),
 preprint at [HAL](https://hal.science/hal-04081885)\]
-* Tsubasa Shoshi, Takuma Ishikawa, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, [Ryosuke Sato](https://www.kb.is.s.u-tokyo.ac.jp/~ryosuke/), [Takeshi Tsukada](https://www.kb.is.s.u-tokyo.ac.jp/~tsukada)  
+* Tsubasa Shoshi, Takuma Ishikawa, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, [Ryosuke Sato](https://www.kb.is.s.u-tokyo.ac.jp/~ryosuke/), [Takeshi Tsukada](https://takeshi-tsukada.github.io)  
 Termination Analysis for the $\pi$-Calculus by Reduction to Sequential Program Termination  
 Proc. APLAS 2021  
 \[Publisher version: [© Springer-Verlag](https://doi.org/10.1007/978-3-030-89051-3_15),
@@ -51,16 +51,16 @@ Symbolic Automatic Relations and Their Applications to SMT and CHC Solving
 Proc. SAS 2021  
 \[Publisher version: [© Springer-Verlag](https://doi.org/10.1007/978-3-030-88806-0_20),
 preprint at [arXiv](https://arxiv.org/abs/2108.07642)\]
-* **Ken Sakayori** and [Takeshi Tsukada](https://www.kb.is.s.u-tokyo.ac.jp/~tsukada)  
+* **Ken Sakayori** and [Takeshi Tsukada](https://takeshi-tsukada.github.io)  
 Output Without Delay: A $\pi$-Calculus Compatible with Categorical Semantics  
 Proc. FSCD 2021  
 \[doi:[10.4230/LIPIcs.FSCD.2021.32](https://doi.org/10.4230/LIPIcs.FSCD.2021.32)\]
-* **Ken Sakayori** and [Takeshi Tsukada](https://www.kb.is.s.u-tokyo.ac.jp/~tsukada)  
+* **Ken Sakayori** and [Takeshi Tsukada](https://takeshi-tsukada.github.io)  
 A Categorical Model of an i/o-typed $\pi$-calculus  
 Proc. ESOP 2019  
 \[Publisher version (gold open access): [© Springer-Verlag](https://link.springer.com/chapter/10.1007%2F978-3-030-17184-1_23),
 Long version: [pdf](https://www.kb.is.s.u-tokyo.ac.jp/~sakayori/papers/esop19.pdf)\]
-* **Ken Sakayori** and [Takeshi Tsukada](https://www.kb.is.s.u-tokyo.ac.jp/~tsukada)  
+* **Ken Sakayori** and [Takeshi Tsukada](https://takeshi-tsukada.github.io)  
 A Truly Concurrent Game Model of the Asynchronous $\pi$-calculus  
 Proc. FoSSaCS 2017  
 \[Publisher version: [© Springer-Verlag](https://doi.org/10.1007/978-3-662-54458-7_23), Author version: [pdf](https://www.kb.is.s.u-tokyo.ac.jp/~sakayori/papers/fossacs17-long.pdf)\]
