@@ -20,7 +20,7 @@ Broadly speaking, my interest lies in the field of programming language semantic
 
 Publications
 ---
-* [Hiroyuki Katsura](https://hkatsura.net/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, and [Ryosuke Sato](https://www.kb.is.s.u-tokyo.ac.jp/~ryosuke/)  
+* [Hiroyuki Katsura](https://hkatsura.net/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, and [Ryosuke Sato](https://ryosu-sato.github.io/)  
 Mode-based Reduction from Validity Checking of Fixpoint Logic Formulas to Test-Friendly Reachability Problem  
 Proc. APLAS 2024  
 \[Publisher version: [© Springer](https://doi.org/10.1007/978-981-97-8943-6_16)\]
@@ -30,7 +30,7 @@ Proc. PEPM 2024
 \[Publisher version: [© ACM](https://doi.org/10.1145/3635800.3636965),
 Preprint at [arXiv](https://doi.org/10.48550/arXiv.2312.06455),
 [Errata](txt/pepm-2024-errata.txt)\]
-* Takashi Nakayama, [Yusuke Matsushita](https://www.kb.is.s.u-tokyo.ac.jp/~yskm24t/), **Ken Sakayori**, [Ryosuke Sato](https://www.kb.is.s.u-tokyo.ac.jp/~ryosuke/) and [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/)  
+* Takashi Nakayama, [Yusuke Matsushita](https://www.kb.is.s.u-tokyo.ac.jp/~yskm24t/), **Ken Sakayori**, [Ryosuke Sato](https://ryosu-sato.github.io/) and [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/)  
 Borrowable Fractional Ownership Types for Verification  
 Proc. VMCAI 2024  
 \[Publisher version: [© Springer](https://doi.org/10.1007/978-3-031-50521-8_11),
@@ -41,12 +41,12 @@ Proc. LICS 2023
 <span class="highlighted-text">Distinguished Paper Award</span>  
 \[Publisher version: [© IEEE](https://doi.org/10.1109/LICS56636.2023.10175686),
 preprint at [HAL](https://hal.science/hal-04081885)\]
-* Tsubasa Shoshi, Takuma Ishikawa, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, [Ryosuke Sato](https://www.kb.is.s.u-tokyo.ac.jp/~ryosuke/), [Takeshi Tsukada](https://takeshi-tsukada.github.io)  
+* Tsubasa Shoshi, Takuma Ishikawa, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, [Ryosuke Sato](https://ryosu-sato.github.io/), [Takeshi Tsukada](https://takeshi-tsukada.github.io)  
 Termination Analysis for the $\pi$-Calculus by Reduction to Sequential Program Termination  
 Proc. APLAS 2021  
 \[Publisher version: [© Springer-Verlag](https://doi.org/10.1007/978-3-030-89051-3_15),
 preprint at [arXiv](https://arxiv.org/abs/2109.00311)\]
-* Takumi Shimoda, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, [Ryosuke Sato](https://www.kb.is.s.u-tokyo.ac.jp/~ryosuke/)  
+* Takumi Shimoda, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, [Ryosuke Sato](https://ryosu-sato.github.io/)  
 Symbolic Automatic Relations and Their Applications to SMT and CHC Solving  
 Proc. SAS 2021  
 \[Publisher version: [© Springer-Verlag](https://doi.org/10.1007/978-3-030-88806-0_20),
