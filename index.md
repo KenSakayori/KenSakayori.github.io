@@ -22,6 +22,10 @@ Broadly speaking, my interest lies in the field of programming language semantic
 
 Publications
 ---
+* Risa Yamada, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, and [Ryosuke Sato](https://ryosu-sato.github.io/)  
+On the Relationship between Dijkstra Monads and Higher-Order Fixpoint Logic  
+To appear in Proc. ESOP 2025  
+<span class="highlighted-text">Distinguished Paper Award</span> 
 * [Hiroyuki Katsura](https://hkatsura.net/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, and [Ryosuke Sato](https://ryosu-sato.github.io/)  
 Mode-based Reduction from Validity Checking of Fixpoint Logic Formulas to Test-Friendly Reachability Problem  
 Proc. APLAS 2024  
