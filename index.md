@@ -22,10 +22,19 @@ Broadly speaking, my interest lies in the field of programming language semantic
 
 Publications
 ---
+* [Hiroyuki Katsura](https://hkatsura.net/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, and [Ryosuke Sato](https://ryosu-sato.github.io/)  
+ Automated Catamorphism Synthesis for Solving Constrained Horn Clauses over Algebraic Data Types  
+To appear in Proc. SAS 2025, Preprint at [arXiv](https://doi.org/10.48550/arXiv.2507.20726)
+
+* **Ken Sakayori** and [Davide Sangiorgi](https://www.cs.unibo.it/~sangio/)  
+Extensional and Non-extensional Functions as Processes  
+[LMCS](https://doi.org/10.46298/lmcs-21(3:25)2025), 2025  
+(A journal version of our LICS 2023 paper invited to a special issue.)
 * Risa Yamada, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, and [Ryosuke Sato](https://ryosu-sato.github.io/)  
 On the Relationship between Dijkstra Monads and Higher-Order Fixpoint Logic  
-To appear in Proc. ESOP 2025  
-<span class="highlighted-text">Distinguished Paper Award</span> 
+Proc. ESOP 2025  
+<span class="highlighted-text">Distinguished Paper Award</span>  
+\[Publisher version: [© Springer](https://doi.org/10.1007/978-3-031-91121-7_16)\]
 * [Hiroyuki Katsura](https://hkatsura.net/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, and [Ryosuke Sato](https://ryosu-sato.github.io/)  
 Mode-based Reduction from Validity Checking of Fixpoint Logic Formulas to Test-Friendly Reachability Problem  
 Proc. APLAS 2024  
