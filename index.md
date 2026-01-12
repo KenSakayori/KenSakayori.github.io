@@ -22,6 +22,11 @@ Broadly speaking, my interest lies in the field of programming language semantic
 
 Publications
 ---
+* **Ken Sakayori**, Andrea Colledan, and [Ugo Dal Lago](https://udallago.github.io/)  
+On Circuit Description Languages, Indexed Monads, and Resource Analysis  
+Proc. of the ACM on Programming Languages, Volume 10, Issue POPL  
+\[Publisher version: [© ACM]( https://doi.org/10.1145/3776666), Preprint at [arXiv](
+https://doi.org/10.48550/arXiv.2511.22419)\]
 * [Hiroyuki Katsura](https://hkatsura.net/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**, and [Ryosuke Sato](https://ryosu-sato.github.io/)  
  Automated Catamorphism Synthesis for Solving Constrained Horn Clauses over Algebraic Data Types  
 Proc. SAS 2025  
