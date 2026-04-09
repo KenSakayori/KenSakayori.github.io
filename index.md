@@ -22,6 +22,10 @@ Broadly speaking, my interest lies in the field of programming language semantic
 
 Publications
 ---
+* Izumi Tanaka, **Ken Sakayori**, [Shinya Takamaeda-Yamazaki](https://sites.google.com/site/shinyaty/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/)  
+Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators  
+To appear in Proc. ESOP 2026  
+Preprint at [arXiv](https://arxiv.org/abs/2601.09217)
 * **Ken Sakayori**, Andrea Colledan, and [Ugo Dal Lago](https://udallago.github.io/)  
 On Circuit Description Languages, Indexed Monads, and Resource Analysis  
 Proc. of the ACM on Programming Languages, Volume 10, Issue POPL  
