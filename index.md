@@ -22,6 +22,10 @@ Broadly speaking, my interest lies in the field of programming language semantic
 
 Publications
 ---
+* Joe Hattori, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**  
+Automatic Detection of Reference Counting Bugs in Linux Kernel Drivers, (Tool paper)  
+To appear in Proc. CAV 2026  
+\[Preprint at [arXiv]( https://doi.org/10.48550/arXiv.2605.13246)\]
 * Izumi Tanaka, **Ken Sakayori**, [Shinya Takamaeda-Yamazaki](https://sites.google.com/site/shinyaty/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/)  
 Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators  
 Proc. ESOP 2026  
