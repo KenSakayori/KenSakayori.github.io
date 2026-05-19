@@ -109,7 +109,7 @@ Education
 
 Grants
 ---
-* JSPS KAKENHI, Grant Number: 24K20731, Japan Society for the Promotion of Science, April 2024 - March 2028.
+* JSPS Grant-in-Aid for Early-Career Scientists (KAKENHI, Wakate Kenkyu), Grant Number: 24K20731, Japan Society for the Promotion of Science, April 2024 - March 2028.
 * Grant-in-Aid for JSPS Fellows (DC2), Grant Number: 20J13473, Japan Society for the Promotion of Science, April 2020 - March 2021.
 
 How to reach me
