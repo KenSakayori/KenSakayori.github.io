@@ -22,6 +22,11 @@ Broadly speaking, my interest lies in the field of programming language semantic
 
 Publications
 ---
+* Joe Hattori, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**  
+Automatic Detection of Reference Counting Bugs in Linux Kernel Drivers, (Tool paper)  
+To appear in Proc. CAV 2026  
+<span class="highlighted-text">Distinguished Paper Award</span>  
+\[Preprint at [arXiv]( https://doi.org/10.48550/arXiv.2605.13246)\]
 * **Ken Sakayori**, [Davide Sangiorgi](https://www.cs.unibo.it/~sangio/), [Simon Castellan](https://iso.mor.phis.me/), [Pierre Clairambault
 ](https://pageperso.lis-lab.fr/pierre.clairambault/)  
 Wiring the π-calculus to Denotational Semantics  
@@ -29,11 +34,6 @@ Proc. LICS 2026
 <span class="highlighted-text">Distinguished Paper Award</span>  
 \[Publisher version: [LIPIcs](https://doi.org/10.4230/LIPIcs.LICS.2026.79), preprint/full version at [HAL](https://hal.science/hal-05620818)/[arXiv](
 https://doi.org/10.48550/arXiv.2605.18496) \]
-* Joe Hattori, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**  
-Automatic Detection of Reference Counting Bugs in Linux Kernel Drivers, (Tool paper)  
-To appear in Proc. CAV 2026  
-<span class="highlighted-text">Distinguished Paper Award</span>  
-\[Preprint at [arXiv]( https://doi.org/10.48550/arXiv.2605.13246)\]
 * Izumi Tanaka, **Ken Sakayori**, [Shinya Takamaeda-Yamazaki](https://sites.google.com/site/shinyaty/), [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/)  
 Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators  
 Proc. ESOP 2026  
