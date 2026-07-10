@@ -25,8 +25,9 @@ Publications
 * **Ken Sakayori**, [Davide Sangiorgi](https://www.cs.unibo.it/~sangio/), [Simon Castellan](https://iso.mor.phis.me/), [Pierre Clairambault
 ](https://pageperso.lis-lab.fr/pierre.clairambault/)  
 Wiring the π-calculus to Denotational Semantics  
-To apper in Proc. LICS 2026  
-\[Preprint/Full version at [HAL](https://hal.science/hal-05620818)/[arXiv](
+Proc. LICS 2026  
+<span class="highlighted-text">Distinguished Paper Award</span>  
+\[Publisher version: [LIPIcs](https://doi.org/10.4230/LIPIcs.LICS.2026.79), preprint/full version at [HAL](https://hal.science/hal-05620818)/[arXiv](
 https://doi.org/10.48550/arXiv.2605.18496) \]
 * Joe Hattori, [Naoki Kobayashi](https://www.kb.is.s.u-tokyo.ac.jp/~koba/), **Ken Sakayori**  
 Automatic Detection of Reference Counting Bugs in Linux Kernel Drivers, (Tool paper)  
